@@ -12,7 +12,7 @@ const HeroSection = () => {
     <>
       {/* SEO Meta Tags - Include if using Next.js */}
       <Head>
-        <title>Professional Live Scan Fingerprinting & Background Checks | Wesley Chapel, FL</title>
+        <title>Professional Live Scan Fingerprinting & Background Checks | Tampa, FL</title>
         <meta 
           name="description" 
           content="Secure identity verification through professional fingerprinting, background checks, and biometric services in Wesley Chapel. DOJ certified with fast results. Schedule today!" 
