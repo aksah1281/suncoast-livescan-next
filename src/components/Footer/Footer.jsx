@@ -150,6 +150,36 @@ const FooterSection = () => {
               </div>
             </div>
             
+            <motion.div 
+              className="footer-developer"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.5, duration: 0.8 }}
+            >
+              <div className="developer-badge">
+                <div className="developer-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <div className="developer-info">
+                  <span className="developer-label">Developed by</span>
+                  <div className="developer-details">
+                    <span className="developer-name">Akash Patel</span>
+                    <motion.a 
+                      href="mailto:akashp1412@gmail.com"
+                      className="developer-email"
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                    >
+                      akashp1412@gmail.com
+                    </motion.a>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+            
             <div className="footer-certifications">
             </div>
           </div>
